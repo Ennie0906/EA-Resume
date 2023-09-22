@@ -18,11 +18,26 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .ui-menu-color-contact {
-    background-color: #009fb7;
+    background-color: #f80a5e;
 }
 
 .ui-menu-color-download {
     background-color: #00ab55;
+}
+
+/* Special padding and margin etc */
+
+h1,h1,h3,h4{
+    margin:0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: 'Merriweather', serif;
+    color: #fff;
 }
 
 /* HEADER SECTION */
@@ -101,4 +116,21 @@ header {
     padding-top: 10px;
     text-transform: uppercase;
     text-align: center;
+}
+
+/* Hover Section */
+
+.hvr-back-pulse:before{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 120px;
+}
+
+
+/* Footer */
+
+footer{
+    background: #525252;
+    color: #fff;
+    min-height: 120px;
+    margin: 0;
 }
