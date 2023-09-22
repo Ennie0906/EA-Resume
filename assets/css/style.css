@@ -1,0 +1,104 @@
+/* GOOGLE FONTS */
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif; */
+
+
+/* COLORS */
+.bg-color-name-title {
+    background-color: #FF8552;
+}
+
+.ui-menu-color-home {
+    background-color: #14213D;
+}
+
+.ui-menu-color-resume {
+    background-color: #9381FF;
+}
+
+.ui-menu-color-contact {
+    background-color: #009fb7;
+}
+
+.ui-menu-color-download {
+    background-color: #00ab55;
+}
+
+/* HEADER SECTION */
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("./images/profile-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+
+.menu-container {
+    font-size: 0;
+}
+
+#nav{
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    height: 120px;
+}
+
+.menuitem a i {
+    font-size: 26px;
+    display: block;
+    color: #fff;
+    padding-top: 22px;
+}
+
+.menuitem span {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
