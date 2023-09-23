@@ -5,6 +5,11 @@ font-family: 'Roboto', sans-serif; */
 
 
 /* COLORS */
+
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
 .bg-color-name-title {
     background-color: #FF8552;
 }
@@ -45,6 +50,23 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: 'Merriweather', serif;
+    margin-top: 25px;
+    margin-bottom: 40px;
+
 }
 
 /* HEADER SECTION */
@@ -180,11 +202,22 @@ footer {
 
 }
 
-.social-links li a i:hover{
+.social-links li a i:hover {
     background-color: #FF8552;
     color: #fff;
 }
 
-#footer-details{
+#footer-details {
     padding: 20px;
+}
+
+/* Three Reasons */
+
+.three-reasons-icon{
+    font-size: 16px;
+color:#14213D;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
