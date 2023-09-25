@@ -225,3 +225,45 @@ color:#14213D;
 .three-reasons-heading {
     margin-bottom: 15px;
 }
+
+/* Personal Info Section */
+
+.personal-info-item{
+  display: block;
+  margin-bottom: 20px;
+  clear: both;
+}
+
+.personal-info-item .key ,
+.personal-info-item .value{
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p{
+    margin: 0 ;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 4px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+}
+
+.personal-info-item .value{
+    position: relative;
+    width: 60%;
+}
+
+.personal-info-item .value p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+}
+
