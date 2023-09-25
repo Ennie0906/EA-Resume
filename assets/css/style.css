@@ -70,7 +70,10 @@ h4 {
     float: none;
 }
 
-.section-heading {
+
+
+.section-heading,
+.history-heading {
     font-family: 'Merriweather', serif;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -290,4 +293,11 @@ color:#14213D;
 
 .progress-section {
     margin: 40px 20px;
+}
+
+
+/* History Section */
+
+.history-heading{
+    color: #fff;
 }
