@@ -14,6 +14,10 @@ font-family: 'Roboto', sans-serif; */
     background-color: #FF8552;
 }
 
+.bg-color-work-history{
+    background-color: #9381FF;
+}
+
 .ui-menu-color-home {
     background-color: #14213D;
 }
@@ -267,3 +271,23 @@ color:#14213D;
     font-weight:300;
 }
 
+/* Progress Bar */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 2px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 7px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
